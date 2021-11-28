@@ -1,0 +1,3485 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../static/images/favicon.ico" style="width: 16px; height: 16px;" type="image/x-icon"/>
+    
+    <title>ATM Seminar</title>
+
+    <!-- Custom CSS -->
+    <link href="../../static/css/business-frontpage.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-59LG5P');</script>
+<!-- End Google Tag Manager -->
+    
+    <!-- Google anayltics tag. For pdf automation, the GA tag should be in the head above the automation tag -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85684740-1', 'auto');
+  ga('send', 'pageview');
+        
+        
+        //handles outbound click links as events
+        function handleOutboundLinkClicks(event) {
+  ga('send', 'event', {
+      eventCategory: '11th-seminar',
+      eventCategory: '10th-seminar',
+      eventCategory: '9th-seminar',
+      eventCategory: '8th-seminar',
+      eventCategory: '7th-seminar',
+      eventCategory: '6th-seminar',
+      eventCategory: '5th-seminar',
+      eventCategory: '4th-seminar',
+      eventCategory: '3rd-seminar',
+      eventCategory: '2nd-seminar',
+      eventCategory: '1st-seminar',
+    eventAction: 'pdf',
+    eventLabel: event.target.href,
+      transport: 'beacon'
+  });
+}
+
+</script><!--End GA tag -->
+    
+    
+    
+    
+
+<script type="text/javascript" src="/static/js/jquery.js"></script>
+
+<style>
+h2.trigger {
+	padding: 0 0 0 0px;
+	margin: 0 0 5px 0;
+	background: url() no-repeat;
+	height: 46px;
+	line-height: 46px;
+	width: 400px;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+}
+h2.trigger a {
+	color: #00F;
+	text-decoration: none;
+}
+h2.trigger a:hover { color: #ccc; }
+h2.active {background-position: left bottom;} /*--When toggle is triggered, it will shift the image to the bottom to show its "opened" state--*/
+.toggle_container {
+	margin: 0 0 5px;
+	padding: 0;
+	border-top: 1px solid #d6d6d6;
+	background: #f0f0f0 url() repeat-y left top;
+	overflow: hidden;
+	font-size: 14px;
+	width: 100%;
+	clear: both;
+}
+.toggle_container .block {
+	padding: 20px; /*--Padding of Container--*/
+	background: url() no-repeat left bottom; /*--Bottom rounded corners--*/
+}
+	.papers {border-collapse: collapse}
+	.papers td{border-bottom:1px solid grey;}
+	.papers td:first-child {border-right:1px solid grey;}
+	.papers th{text-align:center; border-bottom:1px solid black; padding-bottom:10px}
+
+	.papers td { padding:5px;  }
+	.papers td img{margin:0px; padding:5px 0 0 0; }
+</style>
+
+<script>
+$(document).ready(function(){
+
+	//Hide (Collapse) the toggle containers on load
+	$(".toggle_container").hide();
+
+	//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+	$("h2.trigger").click(function(){
+		$(this).toggleClass("active").next().slideToggle("slow");
+		return false; //Prevent the browser jump to the link anchor
+	});
+
+});
+</script>
+
+
+
+
+
+</head>
+
+<body style="padding: 0 !important;">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59LG5P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+   
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header" style="background-color: black; height: 180px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                  <img style="margin-top: 25px; margin-bottom: 25px;" class="img-responsive" src="../../static/images/atm_title.png" />
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!--70c384-->
+     <!-- Navigation --> <!--navbar-fixed-top-->
+    <nav class="navbar navbar-default" role="navigation" >
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                             
+                     
+                    <li>
+                        <a href="../../upcoming-seminar/">Upcoming Seminar</a>
+                    </li>
+                    <li>
+                        <a href="../../past-seminars/">Past Seminars</a>
+                    </li>
+                   
+                    
+                </ul>
+                
+                	
+                
+                
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        
+
+  <h2>13th Seminar Papers</h2>
+  
+  <h4><u>Opening Plenary (presentations only)</u></h4>
+<ul>
+<li><a href="https://drive.google.com/file/d/12cVw6XO0ZGIb6s25kklZvTI3V_bxNGTZ/view?usp=sharing"><strong>"Welcome"</strong></a> <br/> Dirk Schaefer, EU Chair &amp; Organization, EUROCONTROL</li>
+<li><a href="https://drive.google.com/file/d/1m0zUEu_Of2ZRjGFLrZRU4IjnVOOppDa3/view?usp=sharing"><strong>"Airlines' Perspective on Air Traffic Management"</strong></a> <br/> Alexis von Honesbroech, CEO, Austrian Airlines</li>
+<li><strong>Keynote by Eric Mueller</strong></li>
+<li><a href="https://drive.google.com/file/d/1vXCAzZIqwu-2a3c2_NJ2zlfqMzaqV2Kc/view?usp=sharing"><strong>"Is CPDLC Secure and Can Identity-Defined Networking help?"</strong></a> <br/> Andrei Gurtov, Professor, IDA, Linkoping University</li>
+</ul>
+<h4><u>Closing Plenary (presentations only)</u></h4>
+<ul>
+<li><a href="https://drive.google.com/file/d/1pJnksSOY1csBmIATz_4TifhxlJT3uFof/view?usp=sharing"><strong>"NextGen Update"</strong></a> <br/> Josepth Post, Deputy Director, NAS Systems Engineering and Integration, FAA</li>
+<li><a href="https://drive.google.com/file/d/1aZfLvnwnFWM_EWwB4c2Bh1awTwdcg0hT/view?usp=sharing"><strong>"Airspace Future Vision Beyond NextGen"</strong></a> <br/> Akbar Sultan, Director, Airspace Operations and Safety Program, NASA</li>
+<li><a href="https://drive.google.com/file/d/1WE577X-fY7E2x0SRdRc0oaf0MnJhZUrL/view?usp=sharing"><strong>"The European Perpective"</strong></a> <br/> Paul Bosman, Head of Aviation Cooperation &amp; Strategies Division, EUROCONTROL</li>
+<li><a href="https://drive.google.com/file/d/1G-c8SLtkZARyZc4b0FNVggeoDZsHzlZ1/view?usp=sharing"><strong>"Engage Knowledge Transfer Network"</strong></a> <br/> Tatjana Bolić, University of Trieste</li>
+<li><strong>Best paper 5 min presentations (22,43,56,92,102)</strong> <br/> <a href="https://drive.google.com/file/d/1taqRkdl_j3LibXH9CWghyG_qFFq5cWN3/view?usp=sharing"><strong>"22 - Strategic Flight Cancellation under Ground Delay Program Uncertainty"</strong></a> <br/> <a href="https://drive.google.com/file/d/1YuOo7wlNknTIGzqCN1mjvZRPu1HuOmjL/view?usp=sharing"><strong>"43 - Enroute traffic overflows versus arrival management delays"</strong></a> <br/> <a href="https://drive.google.com/file/d/1M4oZesvvf3ieYD8McF3nxHSGAcwzY6bi/view?usp=sharing"><strong>"56 - Automation for Separation with CDOs: Dynamic Aircraft Arrival Routes"</strong></a> <br/> <a href="https://drive.google.com/file/d/1mneRO0hKCjRuWR6105T-r9c4cbFYONnQ/view?usp=sharing"><strong>"92 - A Comparative Analysis of Departure Metering at Paris (CDG) and Charlotte (CLT) Airports"</strong></a> <br/> <a href="https://drive.google.com/file/d/1SD-bplDxRQBpzqzTCDJE_NbuNgXSSZCI/view?usp=sharing"><strong>102 -"A Special Approach Towards Analyzing Air Traffic Network Disruptions"</strong></a></li>
+<li><a href="https://drive.google.com/file/d/1k0hudR73rUJMwVDKWCXDM3r4_JVx4oPm/view?usp=sharing"><strong>"Closing"</strong></a> <br/> Dirk Schaefer, EU Chair &amp; Organization, EUROCONTROL</li>
+</ul>
+<h4><u>All Papers and Presentations</u></h4>
+
+
+<div class="col-sm-12">
+
+
+
+
+
+
+
+<h3>Accepted Papers</h3>
+<table class="table">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Paper ID	</th>
+      <th>Title</th>
+      <th>Paper</th> 
+      
+      <th>Presentation</th> 
+      <th>Theme</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+  
+  <tr>
+    <td>40
+        
+    </td>
+    <td>
+    <strong>Integrated Time-Based Management and Performance-Based Navigation Design for Trajectory-Based Operations</strong><br />
+    Authors: <em>
+        Roland M. Sgorcea, Lesley A. Weitz, Ryan W. Huleatt (MITRE), Ian M. Levitt &amp; Robert E. Mount (FAA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The Federal Aviation Administration (FAA) is in the process of developing and deploying a concept called Trajectory-based Operations (TBO), which, among other goals, aims to provide greater predictability and efficiency to flights by increasing the use of Performance-based Navigation (PBN) procedures and Time-based Management (TBM). To fully achieve the benefits from TBO operations, PBN procedure designs and TBM designs must be tightly integrated. To achieve some of the initial TBO objectives that have been identified (i.e., improvements in throughput, predictability, flight efficiency, and flexibility), the research presented here makes the case that PBN and TBM design must be considered together. An integrated design philosophy is needed to ensure: PBN procedures support Air Traffic Control (ATC) in managing trajectories using speed control only; TBM adaptation yields feasible schedules and accurate information for ATC’s management of flights; and predictable paths support pilots’ energy management task throughout the arrival and approach. This paper will outline the case for creating an integrated PBN and TBM design process and associated tools to help ensure TBM and PBN goals can be fully realized. The paper also includes three design examples that demonstrate the need for an integrated design process and supporting design tools.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1liKojfF8aKRftrfbe3vYZarJt5mkQL8x/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1WmUk25Z5ldnhGNsBXbJzd2BfsNH5MoFr/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Trajectory Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>43
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Enroute Traffic Overflows versus Arrival Management Delays</strong><br />
+    Authors: <em>
+        Raphaël Christien, Eric Hoffman &amp; Karim Zeghal (EUROCONTROL) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper presents a sensitivity analysis on the potential interactions between arrival management and network management when extending the arrival horizon. The analysis focuses on regulated enroute traffic overflows and on arrival management delays. It relies on a macroscopic modelling of arrival management delay, capturing the effect of arrival management horizon and the interaction with the network management by setting delay constraints. The model was applied on 50 days of peak periods traffic demand toward the four busiest European airports in 2017 (more than 25 000 flights). The percentage of arrival flights crossing regulated areas goes up to 60% at 400NM. The results reveal two effects of the potential interaction. Firstly, when network management regulations are not integrated by the arrival management, traffic overflows may occur for extended horizons. For a 400NM horizon, overflows up to +21% were detected (95% percentile). Secondly, when regulations are integrated, overflows disappear but flight efficiency is slightly reduced with a shift from enroute and ground delays towards terminal delay. For a 400NM horizon, this shift is respectively of 35s and 11s, leading to an increase of terminal delay of 46s (+42%). These results raise the question of trade-off and level of performances expected in terms of capacity limits (tolerance), considering that short term flow management measures may apply.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1fwj_8iAA4MGE55TcTOc4S7XjGODgRXX_/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1VovTUjN2Cbnyzb0oqhTpdg3vF88DKgIB/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Trajectory Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>25
+        
+    </td>
+    <td>
+    <strong>Using Machine-Learning to Dynamically Generate Operationally Acceptable Strategic Reroute Options</strong><br />
+    Author: <em>
+        Antony D. Evans (Crown Consulting) &amp; Paul U. Lee (NASA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The newly developed Trajectory Option Set (TOS), a preference-weighted set of alternative routes submitted by flight operators, is a capability in the U.S. traffic flow management system that enables automated trajectory negotiation between flight operators and Air Navigation Service Providers. The objective of this paper is to describe and demonstrate an approach for automatically generating pre-departure and airborne TOSs that have a high probability of operational acceptance. The approach uses hierarchical clustering of historical route data to identify route candidates. The probability of operational acceptance is then estimated using predictors trained on historical flight plan amendment data using supervised machine learning algorithms, allowing the routes with highest probability of operational acceptance to be selected for the TOS. Features used describe historical route usage, difference in flight time and downstream demand to capacity imbalance. A random forest was found to be the best performing algorithm for learning operational acceptability, with a model accuracy of 0.96. The approach is demonstrated for an historical pre-departure flight from Dallas/Fort Worth International Airport to Newark Liberty International Airport.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1fSBN9le8a6eskyAmYLl9BDQs7ZtVoSAH/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1wfO80Aq7A14ifex_NVcyXB8W_0kgxE2p/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Trajectory Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>75
+        
+    </td>
+    <td>
+    <strong>Analysis of Safety Performances for Parallel Approach Operations with Performance-based Navigation</strong><br />
+    Authors: <em>
+        Stanley Förster, Hartmut Fricke (TU Dresden), Bruno Rabiller, Brian Hickling, Bruno Favennec &amp; Karim Zeghal (EUROCONTROL) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper presents a sensitivity analysis of safety performances for independent parallel approach (IPA) operations, using performance based navigation (PBN) transitions connecting to final approaches still relying on ground based landing system (ILS, MLS or GLS). The analysis relies on a stochastic modelling (Monte Carlo simulations), addressing both normal and non-normal (blunder) operations, with a total of 1.700.000 runs for normal operations and 180.000.000 runs for non-normal. The focus is on the intercept phase with two parameters considered: runway spacing and location of the intermediate fix. The results indicate that, assuming a lower blunder rate, performance based navigation transitions to final provides a better safety performance in terms of loss of separation and risk of collision than vectoring to final. They also reveal that the risk of collision with performance based navigation to final is more sensitive to the location of the intermediate fix, thus requiring a careful design.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1eBKugEJu65YayWSq4yOynHkA4jI957b0/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/10J6Kz__WpMWoyGr4-jmW3ctX4zzCOrEm/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Safety
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>95
+        
+    </td>
+    <td>
+    <strong>Modelling Go-Around Occurrence</strong><br />
+    Authors: <em>
+        Lu Dai, Yulin Liu &amp; Mark Hansen (UC Berkeley) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Go-around is an aborted landing of an aircraft that is on final approach. In this work, we model the impact of separation, airport condition, weather condition, and trajectory performance on go-around occurrence. A trajectory-based go- around detection algorithm has been developed and applied to the last three-quarter of JFK arrival flights in 2018. Principal component regression (PCR) model, with a retrospective causal inference design, has been estimated and further been used in counterfactual scenarios to reveal the causal correlations between factors of interest and go-around occurrence. Our results suggest that airport visibility and ceiling, flight perpendicular distance to the Extended Runway Centerline (ERC) are the two most salient factors in causing go-arounds.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1dTk2i-9PeljG9Hr3sd-SfOON2mx-2_wm/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1MQc9NT-nyQDMsqtuBZePU1Tvv7IqdZFL/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Safety
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>28
+        
+    </td>
+    <td>
+    <strong>What is the Potential of a Bird Strike Advisory System?</strong><br />
+    Authors: <em>
+        Isabel C. Metz (DLR &amp; TU Delft), Thorsten Mühlhausen (DLR), Joost Ellerbroek (TU Delft), Dirk Kügler (DLR) &amp; Jacco M. Hoekstra (TU Delft) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper presents a collision avoidance algorithm to prevent bird strikes for aircraft departing from an airport. By using trajectory-information of aircraft and birds, the algorithm predicts potential collisions. Collision avoidance is performed by delaying departing aircraft until they can follow a collision-free trajectory. An implementation of this concept has the potential to increase aviation safety by preventing bird strikes but might reduce runway capacity due to delaying aircraft. As a precursor to the feasibility, this study investigates the maximum achievable safety effect at minimum delay costs of such a system by assuming a deterministic world. Therefore, no uncertainties regarding bird and aircraft positions were considered to enable the system to prevent all bird strikes for departing traffic while causing the smallest possible delay. The anticipated effects were studied by running fast-time simulations including three air traffic intensities at a single-runway airport and bird movements from all seasons. The results imply a high potential for the increase in safety at a reasonable reduction in runway capacity. An initial cost-estimate even revealed a strong saving potential for the airlines. Based on these results, a feasibility study of implementing a bird strike advisory system including uncertainties in bird movements as well as probabilistic effects will be performed.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1WfGRc6Ot9bDiU079T7cKwjntIY2V0cHe/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1w_pnrkVoazjfHSXUnKVVQh8S5Gpia8cR/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Safety
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>44
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Development of a Collision Avoidance Validation and Evaluation Tool (CAVEAT): Addressing the Intrinsic Uncertainty in TCAS II and ACAS X</strong><br />
+    Authors: <em>
+        Sybert Stroeve, Henk Blom (NLR), Carlos Hernandez Medel, Carlos García Daroca, Alvaro Arroyo Cebeira (everis) &amp; Stanislaw Drozdowski (EUROCONTROL) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Airborne Collision Avoidance Systems (ACAS) form a key safety barrier by providing last-moment resolution advisories (RAs) to pilots for avoiding mid-air collisions. For the generation of advisories ACAS uses various ownship state estimates (e.g. pressure altitude) and othership measurements (e.g. range, bearing). Uncertainties, such as noise in ACAS input signals and variability in pilot performance imply that the generation of RAs and the effectuated aircraft trajectories are non-deterministic processes. These can be analysed effectively by Monte Carlo (MC) simulation of the various uncertainties in encounter scenarios. Existing ACAS simulation tools reflect the intrinsic uncertainties to a limited extent only. In recognition of the need of an ACAS evaluation tool that supports MC simulation of these uncertainties, this paper develops an agent-based model, which captures uncertainties in ACAS input and pilot performance for the simulation of encounter scenarios, while using ACAS algorithms (TCAS II, ACAS Xa). The novel ACAS evaluation tool is named CAVEAT (Collision Avoidance Validation and Evaluation Tool). Through illustrative MC simulation results it is demonstrated that the uncertainties can have significant effect on the variability in timing and types of RAs, and subsequently on the variability in the closest point of approach (CPA). It is shown that even mean results of MC simulation can differ significantly from results of a deterministic simulation. Most importantly, the tails of CPA probability distributions are affected. This stipulates that addressing all intrinsic uncertainties through MC simulation is essential for proper evaluation of ACAS.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1cDkGN_b_n6rp7TqZPN5L_r5xVFtJyqX4/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1NCQIhtdkmfgy6dTFDTa8eoHTgU4oa7XB/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Safety
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>63
+        
+    </td>
+    <td>
+    <strong>EnAcT: Generating Aircraft Encounters using a Spherical Earth Model</strong><br />
+    Authors: <em>
+        James A. Ritchie III, Andrew J. Fabian (FAA), Nidhal C. Bouaynaya (Rowan University) &amp; Mike M. Paglione (FAA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               There is ongoing research at the Federal Aviation Administration (FAA) and other private industries to examine a concept for delegated separation in multiple classes of airspace to allow unmanned aircraft systems (UAS) to remain well clear of other aircraft. Detect and Avoid (DAA) capabilities are one potential technology being examined to maintain separation. To evaluate these DAA capabilities, input traffic scenarios are simulated based on either simple geometric aircraft trajectories or recorded traffic scenarios and are replayed in a simulator. However, these approaches are limited by the breadth of the traffic recordings available. This paper derives a new mathe- matical algorithm that uses great circle navigation equations in an Earth spherical model and an accurate aircraft performance model to generate realistic aircraft encounters in any airspace. This algorithm is implemented in a program called Encounters from Actual Trajectories (EnAcT) and uses a number of user inputs defining the encounter events, called encounter properties. Given these encounter properties, the program generates two 4- dimensional flight trajectories that satisfy these properties. This encounter generator could be used to evaluate DAA systems as well as initiate research in automation for conflict detection and resolution.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1YplktsZNMtXeergIKtsCIv82DUjuKWyf/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1xGGTA_aeHQgPv8jknF6KXYnFqTvLC5c7/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Separation
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>16
+        
+    </td>
+    <td>
+    <strong>Learning Real Trajectory Data to Enhance Conflict Detection Accuracy in Closest Point of Approach Problem</strong><br />
+    Authors: <em>
+        Zhengyi Wang (ENAC), Man Liang (University of South Australia), Daniel Delahaye &amp; Weilu Wu (ENAC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Closest Point of Approach (CPA) is one of the main problems in aircraft Conflict Detection (CD). It aims to find out the minimum distance and the associated time between two aircraft on the same altitude with crossing traffic. Conventional CPA prediction model generally assumes that the speed and heading of the aircraft are constant. But the uncertainties in real operations lead to the inaccuracy of CPA prediction. In this paper, we introduce a novel CD framework with Machine Learning (ML) methods. It aims to improve the CPA prediction accuracy with the help of real trajectory data. The new model contributes to not only reduce the number of fault short-mid term conflict alert for air traffic controllers but also support the implementation of future free flight concept, so as to reduce fuel consumption and emission. In our study, we firstly propose a data processing method to generate a close-to-reality simulation data from Mode-S observations. Then, feature engineering is used to transform the raw data into suitable features, which will enable the ML models to make predictions with high- performance. Six prevailing ML methods (MLR, SVM, FFNNs, KNN, GBM, RF) are used to predict the CPA time and distance. Their prediction results are compared with the conventional CPA model (baseline). The simulation results demonstrate that the GBM is the best prediction model both in CPA prediction and conflict detection. However, the results also prove that not all ML models outperform the baseline CPA model. Suitable ML methods can greatly enhance the accuracy of conflict detection.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1bnKatiohJdA3acQqPiOwwlKlAFvQBitx/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1oxuB8JUN6ZMoZjJBd7heYeHB7YP1mod-/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Separation
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>18
+        
+    </td>
+    <td>
+    <strong>A Machine Learning Approach for Conflict Resolution in Dense Traffic Scenarios with Uncertainties</strong><br />
+    Authors: <em>
+        Duc-Thinh Pham, Ngoc Phu Tran, Sameer Alam, Vu Duong (Nanyang Technological University) &amp; Daniel Delahaye (ENAC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               With the continuous growth in the air transportation demand, air traffic controllers will have to handle increased traffic and consequently more potential conflicts. That gives rise to the need for conflict resolution tools that can perform well in high-density traffic scenarios given a noisy environment. Unlike model-based approaches, learning-based or machine learning approaches can take advantage of historical traffic data and flexibly encapsulate the environmental uncertainty. In this study, we propose an artificial intelligent agent that is capable of resolving conflicts, in the presence of traffic and given uncertain- ties in conflict resolution maneuvers, without the need of prior knowledge about a set of rules mapping from conflict scenarios to expected actions. The conflict resolution task is formulated as a decision-making problem in large and complex action space, which is applicable for employing the reinforcement learning algorithm. Our work includes the development of a learning environment, scenario state representation, reward function, and learning algorithm. As a result, the proposed method, inspired from Deep Q-learning and Deep Deterministic Policy Gradient algorithms, can resolve conflicts, with a success rate of over 81%, in the presence of traffic and varying degrees of uncertainties.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1rAZOu584ym85--9-LOq-FVw1TFs36zvG/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1s7ALZWx8kboM9Qe_VlE-aMKrOUdShYyN/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Separation
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>2
+        
+    </td>
+    <td>
+    <strong>Guaranteed Conflict: When Speed Advisory doesn’t Work for Time-based Flow Management</strong><br />
+    Authors: <em>
+        Xiyuan Ge (University of Washington), Minghui Sun &amp; Cody Fleming (University of Virginia) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Time-based Flow Management (TBFM) is one of the core portfolios of the Next Generation Air Transportation System (NextGen). However, according to multiple reports, there is general confusion about the usage and implementation of the time- based capabilities. This paper aims at answering questions about the usage of time-based instructions and speed advisories to maintain safe distances for TBFM. Towards this end, three collectively exclusive types of situation which are “conflict free”, “potential conflict” and “guaranteed conflict” are developed to classify the condition of a flow of aircraft. Then, a decision-making process is further proposed using the three classes to increase the use of time-based instructions and speed adjustment and avoid the costly vectoring and path stretching. Furthermore, algorithms are developed to assist the process in identifying the “guaranteed conflict” and resolving the conflict by removing the least number of airplanes from the flow. Lastly, a use case is studied to illustrate the decision-making process and the effectiveness of the proposed algorithms.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1d8pIO5q2ZFHoFvkqVi9R4luHVJj2GTvu/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/12fFInxliffZOprefqlqACoP9fgzdY9jg/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Separation
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>56
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Automation for Separation with CDOs: Dynamic Aircraft Arrival Routes</strong><br />
+    Authors: <em>
+        Raúl Sáez, Xavier Prats (UPC), Tatiana Polishchuk, Valentin Polishchuk &amp; Christiane Schmidt (Linköping University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               We present a mixed-integer programming (MIP) approach to compute aircraft arrival routes in a terminal maneuvering area (TMA) that guarantee temporal separation of all aircraft arriving within a given time period, where the aircraft are flying according to the optimal continuous descent operation (CDO) speed profile with idle thrust. The arrival routes form a merge tree that satisfies several operational constraints, e.g., all merge points are spatially separated. We detail how the CDO speed profiles for different route lengths are computed. Experimental results are presented for calculation of fully automated CDO-enabled arrival routes during one hour of operation on a busy day at Stockholm TMA.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1kVJ8lISYKwE0c-wUafkdmwXE6226aVMH/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1AQUrLV2c_mdHPfAs5rvY-qv5Oi9Z-KVA/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Separation
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>3
+        
+    </td>
+    <td>
+    <strong>Cost Reductions enabled by Machine Learning in ATM</strong><br />
+    Authors: <em>
+        Hartmut Helmke, Matthias Kleinert, Jürgen Rataj (DLR), Petr Motlicek (Idiap), Christian Kern (Austro Control), Dietrich Klakow (Saarland University) &amp; Petr Hlousek (Air Navigation Services of the Czech Republic) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Various new solutions were recently implemented to replace paper flight strips through different means. Therefore, digital data comprising instructed air traffic controller (ATCO) commands can be used for various purposes. This paper summarizes recent works on developing speech recognition systems to automatically transcribe commands issued by air- traffic controllers to pilots allowing decrease of ATCOs’ workload, which leads to significant increase of ATM efficiency and cost savings. First experiments in AcListant® project have validated that Assistant Based Speech Recognition (ABSR) integrating a conventional speech recognizer with an assistant system can provide an adequate solution. The following EC H2020 funded MALORCA project has proposed new Machine Learning algorithms significantly reducing development and maintenance costs while exploiting new automatically transcribed speech corpora. In this paper, besides recapitulating achieved recognition performance for Prague and Vienna approach, new statistics obtained from various error analysis processes are presented. Results are detailed for different types of ATC commands followed by rationales causing the performance drops.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/15xN4nGUfseT3VeOhyp_HODYl8d0_szlM/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1rkBAbPFEjHkLQMHv_wGDedpK-tB1RFiH/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>106
+        
+    </td>
+    <td>
+    <strong>Characterizing National Airspace System Operations Using Automated Voice Data Processing</strong><br />
+    Authors: <em>
+        Shuo Chen, Hunter Kopald, Rob Tarakan, Gaurish Anand &amp; Karl Meyer (MITRE) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Air Traffic Control (ATC) radio communications contain a wealth of situational context information. While valuable, this information resource has been difficult and expensive to use for large scale analyses because raw speech audio cannot be directly used in analyses without human or computer interpretation. To help the Federal Aviation Administration (FAA) better understand National Airspace System (NAS) dynamics, The MITRE Corporation (MITRE) has been developing voice data analysis capabilities that can enable information from ATC voice communications to be automatically processed on a large scale and used in post-operational analyses. These capabilities use an array of technologies to segment audio data by speaker role, transcribe the audio to text, and extract semantic entities such as aircraft identifiers and clearances. The data derived by these capabilities can inform large-scale analyses, augmenting existing data sources such as radar tracks and flight plans, and enable studies and the generation of metrics that were previously impractical. This paper describes these voice data processing capabilities and presents one example of the use of voice data: to enable better understanding of Performance-Based Navigation (PBN) procedure utilization in the NAS. This paper describes an initial use of voice data analysis to better understand approach procedure utilization, which opens the door for many new analyses.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1aS1zzo_vLDMg0Qvg2-fD_m9FhW0mTpt3/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1SN1cgDV5tsJeGkYFJMn92RT11ou1IBIx/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>51
+        
+    </td>
+    <td>
+    <strong>Field Evaluation of the Baseline Integrated Arrival, Departure, and Surface Capabilities at Charlotte Douglas International Airport</strong><br />
+    Authors: <em>
+        Yoon C. Jung, William J. Coupe, Al Capps, Shawn Engelland &amp; Shivanjli Sharma (NASA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               NASA is currently developing a suite of decision support capabilities for integrated arrival, departure, and surface (IADS) operations in a metroplex environment. The effort is being made in three phases, under NASA’s Airspace Technology Demonstration 2 (ATD-2) sub-project, through a close partnership with the Federal Aviation Administration (FAA), air carriers, airport, and general aviation community. The Phase 1 Baseline IADS capabilities provide enhanced operational efficiency and predictability of flight operations through data exchange and integration, tactical surface metering, and automated coordination of release time of controlled flights for overhead stream insertion. The users of the IADS system include the personnel at Charlotte Douglas International Airport (CLT) air traffic control tower, American Airlines ramp tower, CLT terminal radar approach control (TRACON), and Washington Center. This paper describes the Phase 1 Baseline IADS capabilities and field evaluation conducted at CLT from September 2017 for a year. From the analysis of operations data, it is estimated that 538,915 kilograms of fuel savings, and 1,659 metric tons of CO 2 emission reduction were achieved during the period with a total of 944 hours of engine run time reduction. The amount of CO 2 savings is estimated as equivalent to planting 42,560 urban trees. The results have also shown that the surface metering had no negative impact on on-time arrival performance of both outbound and inbound flights. The technology transfer of Phase 1 Baseline IADS capabilities has been made to the FAA and aviation industry, and the development of additional capabilities for the subsequent phases is underway.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1kYSjXp8gjsRzHdYi4_S_x6TV5-Ekl-Ha/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1uHGlMdd7L1aUF88wgPNx4jbXz4bpBXpF/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Integrated Airport/Airside Operations
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>84
+        
+    </td>
+    <td>
+    <strong>Assessment of the Airport Operational Dynamics Using a Multistate System Approach</strong><br />
+    Authors: <em>
+        Álvaro Rodríguez-Sanz, José Manuel Cordero (CRIDA), Beatriz Rubio Fernández, Fernando Gómez Comendador &amp; Rosa Arnaldo Valdés (UPM) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The analysis of the airport operational reliability is fundamentally linked to the knowledge of the system’s behavior and dynamics. This paper proposes a model for assessing airport performance at a tactical level (time scale), focusing on the airspace-airside turnaround operations (space scale) and considering different areas: delay, capacity, environmental impact and operational complexity. Airports are transportation systems that can complete their tasks with partial performance levels: failures of some system elements may lead to partial degradation of the system behavior, which cannot be assessed with the traditional binary reliability view (working – not working). To consider this performance granularity, our model uses a multistate approach. A Markov-chain based methodology allows us to predict the system’s reliability evolution and move from reactionary measures to predictive interventions. It also considers the impact of stochasticity on performance prediction by assessing the system operational dynamics. The methodology is developed through a case study at a major European hub airport: a collection of 160,460 turnaround operations (registered at 2016) is used to statistically determine the system characteristics. Results for the appraised case study show that the airport tends to evolve towards repaired states, and that delays are major drivers for airport performance dynamics. The contribution of the paper is twofold: it presents a new methodological approach to evaluate airport operational dynamics and it also provides insights on how different factors influence performance.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1hrxYThGC4SKmYFyJHeRdFa8OXeQlgqow/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1EDKp85k3yxRv-f4R3hTjJeRtz7Vodn1g/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Integrated Airport/Airside Operations
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>92
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>A Comparative Analysis of Departure Metering at Paris (CDG) and Charlotte (CLT) Airports</strong><br />
+    Authors: <em>
+        Sandeep Badrinath, Hamsa Balakrishnan (MIT), Ji Ma &amp; Daniel Delahaye (ENAC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Departure metering has the potential to mitigate airport surface congestion and decrease flight delays. This pa- per considers several candidate departure metering techniques, including a trajectory-based optimization approach using a node- link model and three aggregate queue-based approaches (a scheduler based on NASA’s ATD-2 logic, an optimal control approach, and a robust control approach). The outcomes of these different approaches are compared for two major airports: Paris Charles De Gaulle airport (CDG) in Europe and Char- lotte Douglas International airport (CLT) in the United States. Stochastic simulations are used to show that the robust control approach best accommodates operational uncertainties, while all the approaches considered yield higher taxi-out time savings at CLT compared to CDG.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1CbYX4Pur4rk9fv8YWI8cTETed5jss8gN/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1kZWQtuFRKptrkFEH_vWZUZ4dKo1O1dtr/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Integrated Airport/Airside Operations
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>57
+        
+    </td>
+    <td>
+    <strong>Departure Management with Robust Gate Allocation</strong><br />
+    Authors: <em>
+        Ruixin Wang, Cyril Allignol, Nicolas Barnier &amp; Jean-Baptiste Gotteland (ENAC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The Airport Collaborative Decision Making (A- CDM) concept yields concrete and promising solutions for airports, in terms of traffic punctuality and predictability, with possible delay, noise and pollution reduction. A key feature of A-CDM is Departure Management (DMAN): runway take-off sequences can be anticipated such that a significant part of the delay can be shifted at the gate, engines off, without penalizing the remaining traffic. During this process, an increase in the gate occupancy for delayed departures is unavoidable, therefore the airport layout must provide enough gates and their allocation must be robust enough w.r.t. departures delay. In this paper, we introduce a method to estimate the gate delays due to the DMAN pre-departure scheduling, then we propose a robust gate allocation algorithm and assess its performance with current and increased traffic at Paris-Charles-de-Gaulle international airport. Results show a significant reduction in the number of gate conflicts, when comparing such a robust gate allocation to current practice.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/10mGo_ia64P0ocqcJBDWBOWOniyv6O5hz/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1w2RZj6lmWVtrMhtr8oUWJoWDoB1iWPH-/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Integrated Airport/Airside Operations
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>80
+        
+    </td>
+    <td>
+    <strong>Impact of Stochastic Delays, Turnaround Time and Connection Time on Missed Connections at Low Cost Airports</strong><br />
+    Authors: <em>
+        Hasnain Ali, Yash Guleria, Sameer Alam, Vu N. Duong (Nanyang Technological University) &amp; Michael Schultz (DLR) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Low cost carriers usually operate from budget terminals which are designed for quick aircraft turnaround, faster passenger connections with minimal inter-gate passenger transfer times. Such operations are highly sensitive to factors such as aircraft delays, turnaround time and flight connection time and may lead to missed connections for transfer passengers. In this paper we propose a framework to analyze the effect of turnaround times, minimum connection times and stochastic delays on missed connections of self-connecting passengers. We use Singapore Changi Airport budget terminal as a case study to demonstrate the impact of operational uncertainties on these passenger connections, considering an optimal gate assignment and using heuristic search for both scheduled arrivals and departures. Results show that the chances of missed connections can be significantly reduced by operationally maintaining higher turnaround time and minimum connection time and by bringing down delays at the airport. Specifically by maintaining the flight turnaround time at 50 min, minimum connection time at 60 min and by containing arrival delays within 70% of the current delay spread, transfer passenger missed connections can be prevented for almost all the flights. The gate assignment framework adopted in this study may also help to identify the gates which are more prone to missed connections given operational uncertainties and different flight scenarios.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1sdfxdCS-vtj_LaZINbVR03Lbi9xqrpb8/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1Xa7NyZrJdnM2absMxPKZPA-_89AbhKgu/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Integrated Airport/Airside Operations
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>15
+        
+    </td>
+    <td>
+    <strong>A Novel Air Traffic Flow Management Model to Optimise the Network Delay</strong><br />
+    Authors: <em>
+        Sergio Ruiz, Hamid Kadour &amp; Peter Choroba (EUROCONTROL) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper describes the interacting regulations problem and a new method is presented to analyse and optimise network delay. The aim of this research is to contribute to the enhancement of the computer-assisted slot allocation (CASA) mechanism used today in Europe for assigning air traffic flow and capacity management (ATFCM) slots. The interacting regulations problem appears during periods of congestion owing to the non-smoothed coordination of multiple ATFCM constraints applied locally in different sectors. Flights affected by multiple regulated sectors may change their default first-plan-first-served (FPFS) sequence position in certain regulated sectors, which may generate complex ‘interactions’ – positive or negative – between those regulations, and this can typically increase total delay in the network. An enhanced slot allocation method referred to as enhanced CASA (ECASA) is proposed in this paper, which consists in optimising – with heuristics– the default CASA sequences by applying small slot amendments to certain selected flights. Early benchmarking of the ECASA performance shows that the optimisation strategies introduced could significantly reduce network delay (by 27% on average in the simulated period of summer 2018). The proportion of flights delayed by more than 15 minutes could also be significantly reduced (by 42%), thus reducing the cost of operations.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1nqFF1CGB8dDXsRaGUVwYz5cwMbk49xur/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1MA7FDdDypXonwA1gWGunb0Bt_LOmf023/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Network and Strategic Flow Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>105
+        
+    </td>
+    <td>
+    <strong>Operational Concept of Traffic Pattern Classifier for Optimal Ground Holding</strong><br />
+    Author: <em>
+        Adriana Andreeva-Mori &amp; Naoki Matayoshi (JAXA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               A dual-component ground holding (GH) algorithm based on real-time air traffic classification and offline ground holding program parameter optimization is proposed. Numerical simulations are developed to quantitatively evaluate this new concept. GH program performance is evaluated based on airborne delay, ground delay, and lost throughput costs. Preliminary results show that the developed machine-learning-based traffic pattern classifier can propose ground holding control parameters which would result in savings within mean absolute percentage error of 17.96% of the potential optimal ones.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1Sr4VFIeO8DoSrGk09iiD3mdmyVWMq1b-/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1k2iysMp-z9gdH0ZoqFEk0uMZtyoGvawT/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Network and Strategic Flow Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>73
+        
+    </td>
+    <td>
+    <strong>Modelling and Simulation for Reliable LTEbased Communications in the National Airspace System</strong><br />
+    Authors: <em>
+        Izabela Gheorghisor, Angela Chen, Leonid Globus, Timothy Luc &amp; Phillip Schrader (MITRE) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The need for high-data-rate wireless communications to, from, and among users of the National Airspace System (NAS) in the United States is increasing. There are also large numbers of new and upcoming users requesting access to the NAS, including unmanned aircraft systems (UAS) and urban air mobility vehicles. This paper describes a modeling and simulation framework and an initial capability to support research and technical analyses on the potential use of the fourth- generation (4G) Long Term Evolution (LTE) wireless network architecture and its fifth-generation (5G) progression for aviation communications. The research presented in this paper is focused on developing the means to analyze an initial problem, namely how the performance of LTE-based networks, developed for terrestrial use, will be affected by the potential introduction of small UAS (sUAS) as additional users. More and more sUAS are requesting access to the NAS for complex operations beyond the visual line of sight (VLOS) of the remote pilot in command. To safely support such beyond-VLOS (BVLOS) operations, a reliable UAS command and control (C2) solution is necessary. This paper describes initial scenarios, analysis methodologies, and simulation results of using LTE to support a UAS C2 use case. The analyzed scenarios developed for this use case are in a rural environment with small unmanned aircraft (sUA) and terrestrial users sharing the resources of an LTE-based network.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1LoJYV9BgWEXbhc0gcJ8pYO7sXOgfUX3C/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/17e4LOZmSzBog2IwX8-sFNE4G1ISbECiP/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     UAS
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>50
+        
+    </td>
+    <td>
+    <strong>Sense and Avoid Characterization of the Independent Configurable Architecture for Reliable Operations of Unmanned Systems</strong><br />
+    Authors: <em>
+        Maria Consiglio (NASA), Brendan Duffy &amp; Swee Balachandran (National Institute of Aerospace), Louis Glaab &amp; César Muñoz (NASA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Independent Configurable Architecture for Reliable Operations of Unmanned Systems (ICAROUS) is a distributed software architecture developed by NASA Langley Research Center to enable safe autonomous UAS operations. ICAROUS consists of a collection formally verified core algorithms for path planning, traffic avoidance, geofence handling, and decision making that interface with an autopilot system through a publisher-subscriber middleware. The ICAROUS Sense and Avoid Characterization (ISAAC) test was designed to evaluate the performance of the onboard Sense and Avoid (SAA) capability to detect potential conflicts with other aircraft and autonomously maneuver to avoid collisions, while remaining within the airspace boundaries of the mission. The ISAAC tests evaluated the impact of separation distances and alerting times on SAA performance. A preliminary analysis of the effects of each parameter on key measures of performance is conducted, informing the choice of appropriate parameter values for different small Unmanned Aircraft Systems (sUAS) applications. Furthermore, low-power Automatic Dependent Surveillance – Broadcast (ADS-B) is evaluated for potential use to enable autonomous sUAS to sUAS deconflictions as well as to provide usable warnings for manned aircraft without saturating the frequency spectrum.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1dJ0_aGeOJgCKRfq1g74fl6oe1f8OND7B/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1_4xDzMAtJUP_yIxalxfXyN9Pj-BvbNyJ/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     UAS
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>65
+        
+    </td>
+    <td>
+    <strong>Optimizing Collision Avoidance in Dense Airspace using Deep Reinforcement Learning</strong><br />
+    Authors: <em>
+        Sheng Li (Stanford University), Maxim Egorov (Airbus) &amp; Mykel J. Kochenderfer (Stanford University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               New methodologies will be needed to ensure the airspace remains safe and efficient as traffic densities rise to accommodate new unmanned operations. This paper explores how unmanned free-flight traffic may operate in dense airspace. We develop and analyze autonomous collision avoidance systems for aircraft operating in dense airspace where traditional collision avoidance systems fail. We propose a metric for quantifying the decision burden on a collision avoidance system as well as a metric for measuring the impact of the collision avoidance system on airspace. We use deep reinforcement learning to compute corrections for an existing collision avoidance approach to account for dense airspace. The results show that a corrected collision avoidance system can operate more efficiently than traditional methods in dense airspace while maintaining high levels of safety.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1dPn99-3znxy6KiWbvKIkA0tBqHHbM8S4/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1x54wB3O6LunYsPB6WLIbZCi0iou9JJAW/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     UAS
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>64
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>A Geometric Approach Towards Airspace Assessment for Emerging Operations</strong><br />
+    Authors: <em>
+        Parker D. Vascik (MIT), Vishwanath Bulusu (UC Berkeley), Jungwoo Cho (Korea Advanced Institute of Science and Technology) &amp; Valentin Polishchuk (Linköping University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Emerging Urban Air Mobility (UAM) op- erators propose to introduce extensive flight networks into metropolitan airspace. However, this airspace cur- rently contains complex legacy airspace constructs and flight operations that are perceived as safe, effi- cient, and generally acceptable to the overflown public. Hence, Air Traffic Management (ATM) concepts to support UAM may be constrained to cause little to no interference with these legacy operations. The identifi- cation of airspace that is non-interfering and potentially “available” to these new operators is therefore a critical first step to support UAM integration. This paper intro- duces a geometric airspace assessment approach that considers seven existing airspace constructs. Four hy- pothetical ATM scenarios are developed that prescribe different degrees of UAM integration. An alpha-shape topological method is refined to process geometrically complex airspace construct polygons over an expansive geographic area and develop 3D mappings of airspace availability. The approach is demonstrated in the San Francisco Bay Area and is readily extensible to other locations. It is envisioned to be useful in identifica- tion of viable takeoff and landing sites, evaluation of the sensitivity of airspace availability to separation or trajectory conformance requirements, and flight route design, throughput estimation and risk analysis.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1A5T0fNqm-mgdK0lfa-AP8ArmsDznQ67Z/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1jJpRt9Y5ROYgbqB99q7noBmirh6zP5gD/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     UAS
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>77
+        
+    </td>
+    <td>
+    <strong>Extraction and Interpretation of Geometrical and Topological Properties of Urban Airspace for UAS Operations</strong><br />
+    Author: <em>
+        Jungwoo Cho &amp; Yoonjin Yoon (Korea Advanced Institute of Science and Technology) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               With the rapid adoption of operational concepts of Unmanned Aerial Systems (UAS), a large amount of traffic is expected to flow into low-level airspace. However, this low-level airspace contains existing environment of people and surrounding structures that are sensitive to the risk posed by UAS operations. To provide necessary separation and flight planning services, UAS traffic management (UTM) system will need to first identify available airspace that vehicles can operate with an acceptable level of risk. This study attempts to claim that much of what is perceived as empty airspace may not be available for operational use and that the available airspace in highly urbanized areas has a complex geometric form. Geometrical and topological analysis of such complex airspace geometry is necessary as it can provide valuable insights for fully utilizing the finite UTM airspace. In this paper, we present topography map and skeletal graph to interpret underlying geometrical and topological features of urban airspace. Airspace topography map displays a 2D projection of the lowest navigable altitude at specified latitude and longitude, whereas airspace skeletal graph uncovers horizontal- and vertical- connectivity of its components. Both methods not only provide a compact and informative abstraction of airspace but also can be used to partition the entire airspace into different levels based on geometrical and topological properties.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1WOUvQOmK6KJPZWb45N7qZoirnQXaiT0u/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1OYRhM4RGf1LgmlUnnipv84CdU49-9BBM/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     UAS
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>30
+        
+    </td>
+    <td>
+    <strong>Density-Adapting Layers towards PBN for UTM</strong><br />
+    Authors: <em>
+        Vincent Duchamp (ENAC), Leonid Sedov &amp; Valentin Polishchuk (Linköping University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               We study separating urban unmanned aerial ve- hicles (UAV) traffic into altitude levels, using a PBN-inspired approach in which low-density airspace has few layers while congested areas in the city center are split into a larger number of layers. Navigating in the many-layers environment may require better vehicle equipage to support higher performance in terms of altimetry precision; our work thus follows the stakeholders encouragements to use performance-based navigation (PBN) in UAV traffic management (UTM). We present results for several traffic volume scenarios over Norrk ̈oping municipality in Sweden, demonstrating applicability of our solutions in a city setting.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1bMV7d6cefHUBSy25dJtoLIFb4mKeiIuN/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1p79SOT2pZE5XDgvD55k-hek8zRI7vEa7/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     UAS
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>107
+        
+    </td>
+    <td>
+    <strong>Clustering Aircraft Trajectories on the Airport Surface</strong><br />
+    Author: <em>
+        Andrew Churchill &amp; Michael Bloem (Mosaic) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this paper, we describe an approach for clustering aircraft taxi trajectories on the airport surface. The resulting clusters can enable improved or novel analyses and optimization of airport surface traffic. In particular, we seek to identify anomalous taxi trajectories. While statistically anomalous trajectories may be planned or expected by a human controller, they may also be unplanned, and thus may represent flights that could pose safety risks. We developed a novel hierarchical clustering algorithm that groups taxi paths in space and then in time. We present results for Charlotte Douglas International Airport (KCLT), showing the common taxi trajectories represented by the clusters, and then discuss leveraging those clusters to identify anomalous trajectories in this dataset. This unsupervised machine learning approach is able to successfully differentiate between typical and anomalous trajectories in a post hoc setting. We have begun to validate the anomalies with subject matter experts as being a combination of infrequently-used paths and true anomalies. In addition, by clustering in time the trajectories in a shape-based cluster, we can separate free-flowing trajectories from those with stops and identify some common stopping points. Finally, we identify numerous extensions of this approach, and other applications for the underlying clustering methodology.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1LoV7BR3w7VVDy4pn14qBqoKJuoyWuxGV/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1caY-ItyToWJMkjXmP49DIlhtNjmtFnrh/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>5
+        
+    </td>
+    <td>
+    <strong>Identifying Anomalies in past en-route Trajectories with Clustering and Anomaly Detection Methods</strong><br />
+    Author: <em>
+        Xavier Olive &amp; Luis Basora (ONERA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper presents a framework to identify and characterise anomalies in past en-route Mode S trajectories. The technique builds upon two previous contributions introduced in 2018: it combines a trajectory-clustering method to obtain the main flows in an airspace with autoencoding artificial neural networks to perform anomaly detection in flown trajectories. The combination of these two well-known Machine Learning techniques (ML) provides a useful reading grid associating cluster analysis with quantified level of abnormality. The methodology is applied to a sector of the French Bordeaux Area Control Center (ACC) during its 385 hours of operation over seven months of ADS-B traffic. The results provide a good taxonomy of deconfliction measures and weather-related ATC actions. The application of this work is manyfold, ranging from safety studies estimating risks of midair collision, to complexity and workload assessments of traffic when a sector is operated, or to the constitution of a database of ATC actions ensuring aircraft separation. This database could be used to train further ML techniques aimed at improving the state of the art of deconfliction algorithms.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1vsUmxT7FYRmfxhef3CpekvBZ3bU2Ksr0/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1INeWjVLx7p_hbIdYFx5-zOAAT7XxKnpe/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>46
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Data-Driven Precursor Detection Algorithm for Terminal Airspace Operations</strong><br />
+    Authors: <em>
+        Raj Deshmukh, Dawei Sun &amp; Inseok Hwang (Purdue University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The air traffic management system is one of the most complex man-made systems, with stringent standards for safety and operational performance. Modern surveillance systems make available detailed flight and airport information, through on-board and ground recording systems. These recorded datasets can be used for detecting and/or predicting anomalies which hinder safe and efficient operations. The prediction of an anomaly is performed by identifying events that precede the occurrence of an anomaly, which are called precursors. In this paper, we propose a detection algorithm that can identify precursors for flight anomalies through data-driven models designed with surveillance data recorded in the terminal airspace. The proposed algorithm is demonstrated to detect precursors of flight anomalies in the terminal airspace around LaGuardia (LGA) airport in New York City using real traffic data obtained from the Airport Surface Detection Equipment - Model X (ASDE-X) and the Terminal Automation Information Service (TAIS) surveillance datasets.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1aeN3nsWu71QiNaTA8vYWa7Urg9OAbtT5/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/16ACb33uuy2GNqpT5zVL8zq0ZvdpG2BLg/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>49
+        
+    </td>
+    <td>
+    <strong>Advanced Operational Procedure Design Concepts for Noise Abatement</strong><br />
+    Authors: <em>
+        Jacqueline Thomas, Alison Yu, Clement Li, Pedro Manuel Maddens Toscano &amp; R. John Hansman (MIT) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Performance based navigation has led to increased noise complaints due to the concentration of flight tracks. However, performance based navigation allows the opportunity to design advanced operational flight procedures for the purposes of noise abatement. A study of various advanced operational procedure concepts for noise abatement is presented. In this study, a framework is developed and applied for noise analysis of advanced operational procedures. Advanced operational procedures that have been designed for noise abatement include horizontal flight profile modifications, vertical flight profile modifications, and dispersed flight tracks. Metrics used to assess each type of procedure are also discussed.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1Fm90q-vpT4d4okqzP9IAtpXhisA4afTH/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1h4qw5CTvz2-v3jk6PwOOb0mnJQNpQ5CO/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Environment
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>86
+        
+    </td>
+    <td>
+    <strong>Condensation Trails in Trajectory Optimization</strong><br />
+    Author: <em>
+        Judith Rosenow &amp; Hartmut Fricke (TU Dresden) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Contrails are one of the driving contributors on global warming, induced by aviation. The impact of contrails on global warming is subject to large uncertainties of more than 100 %. In detail, condensation trails might even change the algebraic sign between a cooling and a warming effect in an order of magnitude, which is comparable to the impact of aviation emitted Carbon dioxides and Nitrogen oxides. This implies the necessity to granularly consider the environmental impact of condensation trails in single trajectory optimization tools. The intent of this study is the elaboration of all significant factors deciding on the net effect of single condensation trails. Possible simplifications will be proposed for a consideration in single trajectory optimization tools. Finally, the effects of the most important impact factors, such as latitude, time of the year and time of the day, wind shear, atmospheric turbulence and their consideration in a multi-criteria trajectory optimization tool are exemplified. The results can be used for an arbitrary trajectory optimization tool with environmental optimization intents.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1L63im13zgxXGQ_8n9jgPyd4_26_AAq3u/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1BoAz4FxEmwJizdOnwIuVgGpbDyIOeeZP/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Environment
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>54
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Using Wind Observations from Nearby Aircraft to Update the Optimal Descent Trajectory in Real-time</strong><br />
+    Authors: <em>
+        Ramon Dalmau, Xavier Prats (UPC) &amp; Brian Baxley (NASA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The ability to meet a controlled time of arrival during a continuous descent operation will enable environmentally friendly and fuel efficient descent operations while simultaneously maintaining airport throughput. However, if the wind fore- cast used to compute the initial trajectory plan is not accurate enough, the guidance system will need to correct time deviations from the plan during the execution of the descent. Previous work proposed an on-board guidance strategy based on model predictive control, which repeatedly updates the trajectory plan in real-time from the current aircraft state and for the remainder of the descent. However, the wind conditions downstream, at altitudes not explored yet, were difficult to predict due to the lack of data. This paper shows the potential benefits of using wind observations, broadcast by nearby aircraft, to reconstruct the wind profile downstream. The wind profile in the trajectory opti- mization problem is modeled as a spline, which control points are updated to fit the observations before re-planning the trajectory. Results from simulations using realistic wind data show that the performance of model predictive control significantly improves when including up-to-date wind observations, in terms of time and energy errors at the metering fix and fuel consumption.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1HELMQNgGVWReRun-jPgeS7tXBA2IxsVO/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1v21SNuKVA9oL4AuOjdAXXe1Y1D3W7uQD/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Environment
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>11
+        
+    </td>
+    <td>
+    <strong>Airway Network Flow Management using Braess’s Paradox</strong><br />
+    Authors: <em>
+        Qing Cai, Chunyao Ma, Sameer Alam, Vu N. Duong (Nanyang Technological University) &amp; Banavar Sridhar (NASA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The ever increasing demand for air travel is likely to induce air traffic congestion which will elicit great economic losses. In the presence of limited airspace capacity as well as the saturated airway network, it is no longer feasible to mitigate air traffic congestion by adding new airways/links. In this paper, we provide a “counter-intuitive” perspective towards air traffic congestion mitigation by removing airways/links from a given airway network. We draw inspiration from Braess’s Paradox which suggests that adding extra links to a congested traffic network could make the traffic more congested. The paper explores whether Braess’s Paradox occurs in airway networks, or more specifically, whether it is possible to better distribute the flow in an airway network by merely removing some of its airways/links. In this paper, We develop a generic method for Braess’s Paradox detection for a given airway network. To validate the efficacy of the method, a case study is conducted, for South-East Asian airspace covering Singapore airway network, by using 6 months ADS-B data. The results shows that Braess’s Paradox does occur in airway networks and the proposed method can successfully identify the airway network links that may cause it. The results also demonstrates that, upon removing such links, the total travel time for a given day traffic at a given flight level, was reduced from 8661.15 minutes to 8328.64 minutes, a reduction of 332.5 minutes. This amounts to a saving of 3.8% in travel time.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1abZO-vkPtsTrxHXS1KwJZNp5wXYFqqRv/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/14O-oHXJmut2k4spJA8TO71r1WMXz4ukB/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Network and Strategic Flow Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>22
+        
+        <br/><img src="../../static/images/best_conference_6.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Strategic Flight Cancellation under Ground Delay Program Uncertainty</strong><br />
+    Authors: <em>
+        Christine Taylor, Shin-Lai Tien, Erik Vargo &amp; Craig Wanke (MITRE) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Under certain capacity constraints, flight operators will strategically cancel flights to improve their overall operating schedule. However, the benefits of such cancellations are best realized if made early, often before any traffic flow rate limitation is imposed. With improved weather forecasts, the need for early action is more apparent; however, determining the correct actions – in this case, flight cancellations – is still challenging. This paper proposes a framework for optimizing an adaptive decision strategy based on the evolution of the forecast uncertainty. Using an ensemble forecast, a scenario tree is generated to highlight both key planning scenarios and the likelihood of these scenarios developing over the forecast horizon. By aligning decision points at the initial and intermediary nodes in the tree, strategies are optimized to capture the timing of relevant decisions with respect to the forecast uncertainty. Using flight cancellation under Ground Delay Program uncertainty as an example, the paper will analyze the recommended cancellations over the forecast horizon, against different predicted scenarios as well as how these recommendations adapt as new forecast information is made available. The results will show that by directly planning for adaptation, improved outcomes can be obtained.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1gthTPAD2Zb4fILLe6VpbhOUh9o5KWtk1/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1PMJSIzshNTHC6RhAMJ6tQT2PRUVD_JGC/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Network and Strategic Flow Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>29
+        
+    </td>
+    <td>
+    <strong>Optimizing Successive Airspace Configurations with a Sequential A* Algorithm</strong><br />
+    Author: <em>
+        David Gianazza (ENAC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this paper, we introduce exact tree search algo- rithms which explore all the possible sequences of airspace partitions, taking into account some constraints on the transitions between two successive airspace configurations. The transitions should be simple enough to allow air traffic controllers to main- tain their situation awareness during the airspace configuration changes. For the same reason, once a sector is opened it should remain so for a minimum duration. The proposed method is a sequential A ∗ algorithm with a rolling horizon. It finds a sequence of airspace configurations minimizing a cost related to the workload and the usage of manpower resources, while satisfying the transition constraints. This approach shows good results on 9 months of data from the french ATCC Aix (East), when compared with two baseline methods, one with a greedy approach and the other with no transition constraints.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1rTcAdfXKRQehKZTssg_mPWLuf8632cNu/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1SCriHxjGiBICk1E-xW35as4WcTMgoUXo/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Network and Strategic Flow Management
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>27
+        
+    </td>
+    <td>
+    <strong>Statistical Model to Estimate the Benefit of Wake Turbulence Re-Categorization</strong><br />
+    Authors: <em>
+        Nastaran Coleman, Dave Knorr &amp; Almira Ramadani (FAA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Wake turbulence behind flying aircraft can be hazardous to nearby aircraft. Separation standards, also known as wake vortex minima, have been put in place to mitigate risks from wake encounters and ensure safety. These standards apply to aircraft pairs grouped into wake categories. With better wake science and improved automation assisting air traffic controllers, more refined wake categorizations and separation standards, called wake turbulence Re-Categorization (RECAT), have been introduced around the world, aiming to improve flight efficiency and airport capacity. Since runway capacity is one of the major factors limiting the growth of aviation, the benefits of RECAT have been of great interest to airlines, Air Navigation Service Providers (ANSP), and Directors General of Civil Aviation (DGCA). Through the Joint Analysis Team (JAT) under the NextGen Advisory Committee, the FAA has worked with industry to evaluate RECAT capacity and delay improvements at five airports. These analyses used rapidly updated ASDE-X data to measure specific changes for individual aircraft pairs. One key JAT finding is that RECAT benefits vary greatly by airport due to differing aircraft mixes and traffic levels. Built on the empirical findings at the aircraft pair level, this paper introduces a set of statistical models that estimate delay savings associated with a proposed or actual implementation of RECAT at any airport. These regression models are robust enough to estimate delay savings for any version of RECAT at any airport using current or future demand and fleet mix patterns, although input adjustments may be required for alternative RECAT versions. Moreover, these models are easy to use and do not rely on runway-specific information that is hard to obtain and requires costly resources to establish accuracy. The proposed set of regression models requires only readily available data, such as arrival and departure times, and airport fleet mix and capacity. To assess the validity of the model&#39;s estimates, comparisons are made to other published analyses.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1de7bvQ-E5yIoVw68zaj3WRrrHcLiX6Kk/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1VxSIBUof4q68yr8RrdrTUgDCQk99xecY/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Performance Analysis and Metrics
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>41
+        
+    </td>
+    <td>
+    <strong>Spacing and Pressure to Characterise Arrival Sequencing</strong><br />
+    Authors: <em>
+        Raphaël Christien, Eric Hoffman &amp; Karim Zeghal (EUROCONTROL) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper presents an analysis of the sequencing of arrival flights at four European airports representative of different types of operation with more than 14000 aircraft pairs. The motivation is to better understand and characterise how sequencing is performed in dense and complex environments during peak periods. The analysis, purely data driven, focuses on the evolution of flight additional time, spacing deviation and sequence pressure. The main results are: (1) at 15 minutes from final, the average flight additional time varies from 4 to 6 minutes (depending on the terrain), with a variability between ±2.5 and ±4 minutes; (2) at 15 minutes from final, the spacing deviation varies from ±3min to ±4min, and converges toward zero at 2min to final; (3) the sequence pressure (number of flights sharing the same arrival slot if no sequencing) is low at terminal area entry, and then peaks at some distance/time from final before decreasing toward a target pressure of one flight per slot, closer to final. The pressure levels and their peak distribution over the terminal area differ notably among destinations, highlighting the effect of the sequencing technique. Future work will involve analyzing high- pressure situations, in view of identifying the appropriate pressure characteristics, i.e. trade-off between the required minimum pressure and acceptable controller workload.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1I99xp6fXzQITe5cBecHr9ORh-OvcETKj/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1Fb6TM27OGEyeCJolKUVC74ZFslXEbqgf/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Performance Analysis and Metrics
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>42
+        
+    </td>
+    <td>
+    <strong>Vertical Efficiency in Descent Compared to Best Local Practices</strong><br />
+    Authors: <em>
+        Pierrick Pasutto, Eric Hoffman &amp; Karim Zeghal (EUROCONTROL) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper presents an assessment of the vertical efficiency in descent at four major European airports using best local practices as references. The motivation is to assess the potential for short term improvements through an increased adherence to these best practices. The assessment relies on the analysis of the vertical deviation to best descent profiles of each airport, in relation to the additional flight time as a proxy for the level of congestion. It focusses on the 50NM area around each airport and relies on six months of data from 2018 during day- time operations over more than 200 000 flights in total. The assessment reveals a triple relative inefficiency. Firstly, descent profiles significantly lower than best practices: the median vertical deviation for 10 minutes flight time exceeds 2300ft. Secondly, a degradation of descent profiles with the level of congestion: the median vertical deviation for 10 minutes flight time increases by 800ft per 1 minute additional time. Thirdly, a variability of descent profiles for a same level of congestion: the vertical deviation span (90% containment) for 10 minutes flight time is 2000ft or more for a same additional time. The four airports have different deviations on their common range of additional time (between 1600ft and 2100ft in 0-5min range), even more pronounced when considering deviations above and below FL70 with a ratio above/below ranging from 1.2 to 5.8. Further work will involve the identification of the causes of large vertical deviations and possible ways to reinforce adherence to best descent profiles.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1x4yvToI27VqFxKUwrDOGK9jglxPX_k-B/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1uDzOfdssgoR9TNkyuO__dFzt5CL6VsJT/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Performance Analysis and Metrics
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>1
+        
+    </td>
+    <td>
+    <strong>GLS Approaches using SBAS: a SBAS to GBAS Converter</strong><br />
+    Authors: <em>
+        Thomas Dautermann, Thomas Ludwig, Robert Geister, Lutz Ehmke, Max Fermor (DLR), Matthew Bruce &amp; Markus Schwendener (Flight Calibration Services) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               We build a prototype system intended to bring together the advantages of both the ground based and satellite based augmentation systems (GBAS, SBAS). It combines an SBAS-capable global navigation satellite systems receiver with a database and a GBAS-compatible data link. The correction and integrity data received from the SBAS satellite are automatically translated into GBAS-compatible structures and sent to the airborne multi-mode receiver using the final approach segment data block. This receiver can now send deviations directly to the autopilot making automated landings possible. The device can be installed on the ground as well as in the aircraft. As commercial air transport aircraft are rarely equipped with SBAS capable receivers but are increasingly fitted with GBAS receivers our System adds the SBAS capability to a GBAS equipped aircraft. Here, we present algorithms and data collected during validation flights and a case study on the economic impact for airport operators.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1ImKf80d1KXOyIBB7ERYl1vHT-bwk1yoJ/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1PLKoczKZugNLxiQwGCJXA0WGTMpekXPm/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Surveillance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>67
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Direct Modelling of Flight Time Uncertainty as a Function of Flight Condition and Weather Forecast</strong><br />
+    Author: <em>
+        Noboru Takeichi &amp; Taiki Yamada (Tokyo Metropolitan University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This study presents a direct prediction model of flight time uncertainty as a function of flight condition and weather forecast information at an arbitrary flight distance. Due to fluctuations in meteorological conditions, flight time uncertainty increase is unavoidable despite constant monitoring and control of the aircraft’s Mach number, flight altitude, and direction. Using secondary surveillance radar Mode S and numerical weather forecast, actual flight data are collected and processed in order to obtain a large dataset regarding flight time error and flight and meteorological conditions. The law of propagation of uncertainty is utilized to derive a mathematical model of flight time uncertainty as a function of ground speed, Mach number, flight distance, wind, temperature, and pressure altitude. Through cluster and linear regression analyses, the coefficients of the derived function are determined, taking into consideration the correlation between temperature and pressure altitude. Upon evaluation, the proposed model function is found to directly predict flight time uncertainty, without underestimation or overestimation even under moderate or severe weather conditions, at an arbitrary distance. The results show that the direct prediction model simultaneously improves the safety and efficiency of 4D trajectory management.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1OZD4N-6IfxrWNJa7dGkRoX1bmoVb3r_Y/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1kiaq292xogGnLEmJeqSJdTmKcReJX9cv/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Surveillance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>13
+        
+    </td>
+    <td>
+    <strong>Air Traffic Controller use of Interval Management during Terminal Area Metering</strong><br />
+    Author: <em>
+        Randall Bone (MITRE) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               A Human-in-the-loop simulation examined the integration of a relative spacing concept (Interval Management [IM]) into a future absolute spacing Terminal Sequencing and Spacing (TSAS) terminal metering environment. Air traffic controllers and flight crews utilized current day automation capabilities with enhancements for terminal metering and IM to test the integration for acceptability and necessary spacing awareness information. Controller results are presented in this paper. Controllers examined different sets of spacing information across several traffic scenarios. The results indicate IM is compatible with terminal metering, but the appropriate tools to support trust of IM should continue to be examined. Concept and operational recommendations are made, including enhancements to IM-related displays.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1D2CqyX8_ohws0uHVpzFlMfLp5gH-Kmqn/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1tH_BZrFCUkcj0HFEglGxX8AZ4B6cEEx4/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Surveillance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>19
+        
+    </td>
+    <td>
+    <strong>Reduced Separation in US Oceanic Airspace Benefits Analysis through Fast-Time Modelling</strong><br />
+    Authors: <em>
+        Dan Howell, Rob Dean (Regulus) &amp; Joseph Post (FAA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               As part of an ongoing cost-benefit analysis, the Federal Aviation Administration (FAA) is investigating the potential operational impact of improved surveillance in oceanic airspace. Improved surveillance is possible via Space- Based Automatic Dependent Surveillance – Broadcast (ADS-B) and/or improved Automatic Dependent Surveillance – Contract (ADS-C). One of the primary benefits of improved surveillance is reduced separation minima. A detailed simulation of US oceanic airspace was developed and used to examine operations in the current oceanic environment and in several reduced separation scenarios. The modeling captures the impact of mixed aircraft equipage, pilot behavior, oceanic climb/descent procedures, and differing separation standards of neighboring Flight Information Regions (FIR). This paper describes the benefit mechanisms related to improved oceanic surveillance, the fast-time model and modeling assumptions, and the results of analyzing one of these benefit mechanisms: improved accommodation of altitude requests (and the associated reduction in fuel burn).
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/14uj6mDvkOsu9zD-9Poz5WVqrn_TZy88_/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1vg-2FZHTMQIvdh7y-p0LCxTIBdthtphk/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Surveillance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>24
+        
+    </td>
+    <td>
+    <strong>Benefits and Costs of ADS-B In Efficiency Applications in US Airspace Fast-Time Modelling Results and Preliminary Economic Analysis</strong><br />
+    Authors: <em>
+        Dan Howell, Rob Dean &amp; Gary Paull (Regulus) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               As support to an aviation industry workgroup, the Federal Aviation Administration (FAA) is investigating the costs and potential benefits of cockpit-based applications that receive Automatic Dependent Surveillance – Broadcast (ADS-B) information from other aircraft, more generally referred to as ADS-B In. This paper describes the benefit mechanisms connecting ADS-B In to increased runway throughput, the fast-time benefits model, the cost model, and a comparison of cost and benefit results. One of the primary benefit mechanisms of ADS-B In is an increase in runway throughput. The throughput impact of multiple ADS-B In applications was modeled for 35 US airports and used in a large scale fast-time simulation to estimate lifecycle benefits in terms of reduced delay and cancellations. A parallel cost effort estimated the avionics costs and potential equipage schedule of implementing these applications across the US air transport fleet. It is likely that the benefit cost analysis results and modeling techniques will be used in future FAA investment decisions to justify funds for automation changes needed to fully take advantage of ADS-B In applications.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1S0rc9_EO4atOUx4elPBbE2eKm-_tyyqW/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1n_iwZYNapblNPgDagV5Io5Ip8Tx8hSdo/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Surveillance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>90
+        
+    </td>
+    <td>
+    <strong>Analysis of Long Duration Eye-Tracking Experiments in a Remote Tower Environment</strong><br />
+    Authors: <em>
+        Prithiviraj Muthumanickam, Aida Nordman (Linköping University), Lothar Meyer, Supathida Boonsong (LFV), Jonas Lundberg &amp; Matthew Cooper (Linköping University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Eye-Tracking experiments have proven to be of great assistance in understanding human computer interaction across many fields. Most eye-tracking experiments are non-intrusive and so do not affect the behaviour of the subject. Such experiments usually last for just a few minutes and so the spatio- temporal data generated by the eye-tracker is quite easy to analyze using simple visualization techniques such as heat maps and animation. Eye tracking experiments in air traffic control, or maritime or driving simulators can, however, last for several hours and the analysis of such long duration data becomes much more complex. We have developed an analysis pipeline, where we identify visual spatial areas of attention over a user interface using clustering and hierarchical cluster merging techniques. We have tested this technique on eye tracking datasets generated by air traffic controllers working with Swedish air navigation services, where each eye tracking experiment lasted for ∼90 minutes. We found that our method is interactive and effective in identification of interesting patterns of visual attention that would have been very difficult to locate using manual analysis.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1lV6ZqIXnL4uhCXalzFTgeHRfHmc42tRX/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1StP1q-u2PONCvHiix-_l3ujlXnbtcV1a/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Human Factors
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>103
+        
+    </td>
+    <td>
+    <strong>Validation of an Empiric Method for Safety Assessment of Multi Remote Tower</strong><br />
+    Authors: <em>
+        Lothar Meyer, Maximilian Peukert, Billy Josefsson (LFV) &amp; Jonas Lundberg (Linköping University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The novel multi remote tower concept involves the control of two airports by one tower controller from one remote workplace at a time. In order to implement a multi remote tower into operations, a safety assessment is crucial to evaluate existing risks. Since there is currently no operational experience available concerning this concept, the hazard identification and risk mitigation remains hypothetical. However, empiric data is needed for evaluating and focusing on the safety-relevant hazards that are multi remote tower specific. To close this gap, we developed the MERASSA concept for gaining evidence on the safety-relevance of hazard using Human-In-The-Loop simulations and stress test scenarios. The method was assessed through a validation study at the multi remote tower case using eight identified hazards that are human-issue originated. In total 32 simulation runs with eight rated and experienced tower controllers were carried out. The results of the study show the ability of the tower controller to compensate risk by slowing down the work speed. No hazard could be verified through a comparison of the multi and single runway baseline scenario. Additionally, the results indicate a clear lack of confidence of the tower controller to control two airports at a time due to the need to share attention across the work environment. The comparison of the empiric and subjective results show equal trends which are a sign for the success of applying the method. However, a major drawback of using simulations and stress test scenarios are the enormous efforts needed to control the conditions of testing.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1Oct3xLD2mTPCX2wgX68B7M8KlscWaz2Q/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1Q5l07bgY2m8jXmzmRHCzsrirTasM_evp/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Human Factors
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>58
+        
+    </td>
+    <td>
+    <strong>Solution Space Concept: Human-Machine Interface for 4D Trajectory Management</strong><br />
+    Authors: <em>
+        Rolf Klomp, Rick Riegman, Clark Borst, Max Mulder &amp; René van Paassen (TU Delft) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The current evolution of the ATM system, led by the SESAR programme in Europe and the NextGen programme in the US, is foreseen to bring a paradigm shift to the work of the air traffic controller. Rather than the current primarily tactical control method, one aims for the introduction of more strategic, 4D (space and time) trajectory management. In both programmes a central role is foreseen for the human operator, aided by higher levels of automation and advanced decision- support tools. Previous work has shown promising results in the design of such automated support tools, however, issues with controller acceptance and intuitiveness were found to be key for their overall acceptability. This paper presents a concept decision-support tool for 4D trajectory management that aims to overcome these issues by directly visualizing action-relevant solution spaces. Rather than imposing a certain control strategy, the solution space visualizes all possible control actions, regardless of their optimality. Results of preliminary validation experiments with partial implementations of the solution space repre- sentation demonstrated the viability of the concept, but also highlighted areas for improvement.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1-4q1fzrjAavRLOhoyYaS_npGLpdXJ8Vk/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1_tndqTPzS69lhPMtJh_XY-KqAA_7sHJt/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Human Factors
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>31
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Conformal Automation for Air Traffic Control using Convolutional Neural Networks</strong><br />
+    Authors: <em>
+        Sjoerd van Rooijen, Joost Ellerbroek, Clark Borst &amp; Erik-Jan van Kampen (TU Delft) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Lack of trust has been identified as an obstacle in the introduction of workload-alleviating automation in air traffic control. The work presented in this paper describes a concept to generate individual-sensitive resolution advisories for air traffic conflicts, with the aim of increasing acceptance by adapting advisories to different controller strategies. These personalized advisories are achieved using a tailored convolutional neural net- work model that is trained on individual controller data. In this study, a human-in-the-loop experiment was performed to generate datasets of conflict geometries and controller resolutions, with a velocity obstacle representation as a learning feature. Results show that the trained models can reasonably predict command type, direction and magnitude. Furthermore, a correlation is found between controller consistency and achieved prediction performance. A comparison between individual-sensitive and general models showed a benefit of individually trained models, confirming the strategy heterogeneity of the population, which is a critical assumption for personalized automation.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1JGl0oZcBL9wpbzUyZ6urae4UaKVykN4C/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1TEjQE8qZozanMVkiYXSBRIt0hlASsoBv/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Human Factors
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>87
+        
+    </td>
+    <td>
+    <strong>Iterative Learning Control for Precise Aircraft Trajectory Tracking in Continuous Climb Operations</strong><br />
+    Authors: <em>
+        Almudena Buelta, Alberto Olivares &amp; Ernesto Staffetti (Universidad Rey Juan Carlos) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this paper, an iterative learning control method is used to improve precision in aircraft trajectory tracking in which, given a departure procedure, the dynamical model of an aircraft and a trajectory to be followed, the problem consists in defining an iterative learning control scheme which is able to improve the precision of the aircraft in following the trajectory taking into account the deviations suffered by previous flights. It is assumed that all the flights are operated with the same aircraft model and that they successively follow the same trajectory with short time- based separation and therefore are subject to similar recurrent disturbances. In the iterative learning control scheme used in this paper, the control action consists in generating at each iteration a new reference trajectory for the aircraft which compensates for recurrent disturbances. Thus, it can be applied to systems with underlying controllers for trajectory tracking, such as aircraft. In this case, the feedback trajectory tracking control is intended to reduce non-repetitive disturbances while the iterative learning control is intended to reject repetitive disturbances. The iterative learning control problem is solved in two steps: disturbance estimation and aircraft reference trajectory update. Both steps rely on a nominal model of the aircraft in which input and state constraints are explicitly taken into account. Continuous climb operations, defined within a standard instrumental departure, are considered in the simulations. The result show the effectiveness of the method which is able to reduce the trajectory tracking error due to recurrent disturbances in a few iterations, thus improving their predictability. Higher predictability of aircraft trajectories would simplify both management and control of air traffic, would improve the capacity of the air traffic management system and would allow a better exploitation of the infrastructures. Greater predictability of aircraft trajectories would also allow airlines to define and follow trajectories with a smaller number of alterations. This would result in a reduction of costs and emissions.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1N1HUvRF1VfsrirUI0czR0cBNiUzAoaW8/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1YnEXuaSY4WMLmLstoiXkR3Zq7CZwjDCY/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Trajectory Prediction
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>21
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Predictive Distribution of the Mass and Speed Profile to Improve Aircraft Climb Prediction</strong><br />
+    Author: <em>
+        Richard Alligier (ENAC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Ground-based aircraft trajectory prediction is a major concern in air traffic control and management. A safe and efficient prediction is a prerequisite to the implementation of new automated tools. In current operations, trajectory prediction is computed using a physical model. It models the forces acting on the aircraft to predict the successive points of the future trajectory. Using such a model requires knowledge of the aircraft state (mass) and aircraft intent (thrust law, speed intent). Most of this information is not available to ground-based systems. Focusing on the climb phase, we train neural networks to pre- dict some of the unknown point-mass model parameters. These unknown parameters are the mass and the speed intent. For each unknown parameter, our model predicts a Gaussian distribution. This predicted distribution is a predictive distribution: it is the distribution of possible unknown parameter values conditional to the observed past trajectory of the considered aircraft. Using this distribution, one can extract a predicted value and the uncertainty related to this specific prediction. Using a physical model like BADA, this distribution could be used to derive a probability distribution of possible future trajectory ([1]). This study relies on ADS-B data coming from The OpenSky Network. It contains the climbing segments of the year 2017 detected by this sensor network. The 11 most frequent aircraft types are studied. The obtained data set contains millions of climbing segments from all over the world. Using this data, we show that despite having an RMSE slightly larger than previously tested methods, the predicted uncertainty allows us to reduce the size of prediction intervals while keeping the same coverage probability. Furthermore, we show that the trajectories with a similar predicted uncertainty have an observed RMSE close to the predicted one. The data set and the machine learning code are publicly available.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1N67Fz678491jWWRtwYFp3UTHMJOv1_dp/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1sTTLSrPcLCpEdhwJ02d29KfXugelH5bz/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Trajectory Prediction
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>66
+        
+    </td>
+    <td>
+    <strong>A Heuristic Algorithm for Aircraft 4D Trajectory Optimization Based on Bezier Curve</strong><br />
+    Authors: <em>
+        Weibin Dai, Jun Zhang (National Key Lab of CNS/ATM), Daniel Delahaye (ENAC) &amp; Xiaoqian Sun (National Key Lab of CNS/ATM) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this study, we propose an aircraft 4D trajectory optimization model based on Bezier curve. Many real-world factors (such as winds, obstacles, uncertainties) and actions (the modification of departure time, the trajectory shape, aircraft speed and altitude) are taken into account. To solve the model, an improved simulated annealing algorithm with two phases was proposed: the first phase for reducing the number of conflicts and the second phase for decreasing the total flight time. A national-size dataset for France which is provided by a fast time simulator (ΠRATS) is used as a case study. The experimental results show that the algorithm provides conflict-free trajectories within a very short time for all instances. For the objective to deconflict aircraft, the algorithm is almost linearly scalable for large-scale instances. For a given limited run time (such as 6 hours), the algorithm provides good solutions with small values of objective function (total flight time, changes of aircraft speed and obstacles encounters).
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1KvBuX_4qHIv82J_TScdwh6Rs857O-p6F/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1bifZB0pxUSLUvzj0q_f-7qovqUFPwnNa/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Trajectory Prediction
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>53
+        
+    </td>
+    <td>
+    <strong>Evaluation of a Dynamic Weather-Avoidance Rerouting Tool in Adjacent-Center Arrival Metering</strong><br />
+    Authors: <em>
+        Miwa Hayashi, Doug Isaacson &amp; Huabin Tang (NASA) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Dynamic Reroutes for Arrivals in Weather (DRAW) is a NASA-developed decision-support tool for Traffic Management Coordinators (TMCs) at the Federal Aviation Administration’s Air Route Traffic Control Centers (“Centers”). DRAW proposes weather-avoidance reroutes for en route arrival flights subject to metering restrictions when transitioning into a busy terminal airspace. The prior DRAW study demonstrated that TMCs’ use of DRAW promotes earlier reroutes of arrivals, and reduces the number of routes conflicting with weather in the Center. The present paper focuses on how DRAW benefits metering delivery accuracy when schedule freeze horizon distance was altered. A human-in-the-loop simulation was conducted at NASA Ames Research Center in October-November 2018, where retired TMCs and controllers performed simulated metering operations for southeast arrivals through the Atlanta and Jacksonville Centers to the Hartsfield-Jackson Atlanta International Airport during convective weather periods. Results demonstrated that DRAW use reduced the frequency of manual adjustments of Scheduled Times of Arrival and lowered TMC workload. DRAW use also made the metering accuracy, the number of reroute amendments after the freeze horizon, and the en route sector controller workload more robust to the effect of different freeze horizon distance.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1PikgcLKfBiCpNNouhBlglvBs3ruuSs3W/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/129ZfSyoe0I92Tq4vpGiGHEUeGCItkvyM/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Weather
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>85
+        
+    </td>
+    <td>
+    <strong>Model Predictive Control Approach to Storm Avoidance for Multiple Aircraft</strong><br />
+    Authors: <em>
+        Dinesh B. Seenivasan, Alberto Olivares &amp; Ernesto Staffetti (Universidad Rey Juan Carlos) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper studies the trajectory generation problem for multiple aircraft in converging and intersecting arrival routes in the presence of a multi-cell storm in development. Storm avoidance constraints are enforced by approximating the cells of the storm as moving and size-changing ellipsoids. The problem is solved using nonlinear model predictive control based on hybrid optimal control with logical constraints in disjunctive form. The evolution of the storm is tackled using the nonlinear model predictive control scheme, which iteratively re-plans the trajectories as a new estimation of the state of the storm is available. Logical constraints in disjunctive form arise in modelling passage through waypoints and storm avoidance constraints. An embedding approach is employed to transform these logical constraints in disjunctive form into inequality and equality constraints which involve only continuous auxiliary variables. In this way, the hybrid optimal control problem is converted into a smooth optimal control problem, thereby reducing the computational complexity of finding the solution.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1iPl4Ndy6qp9npqUTglrcWVo8Ir8hjEFf/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1t6qNwZB8XMWemQ43QCtwiQX0NQfiCw3R/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Weather
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>78
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Advanced Quantification of Weather Impact on Air Traffic Management - Intelligent Weather Categorization with Machine Learning</strong><br />
+    Authors: <em>
+        Stefan Reitmann (DLR), Sameer Alam (Nanyang Technological University) and Michael Schultz (DLR) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The classification of weather impacts on airport operations will allow efficient consideration of expected local weather events and in an analysis of air traffic network behaviors. We use machine learning approaches to correlate weather data from meteorological reports and airport performance data contains of flight plan data with scheduled and actual movements as well as delays. In particular, we used unsupervised learning to cluster performance impacts at the airport and classify the respective weather data with recurrent and convolutional neural networks. It is shown that a classification is possible and allows estimates of delay including weather and flight plan data at an airport. This paper serves to illustrate a possible classification with machine learning methods and is the basis for further investigations on this topic. Our machine learning approach allows for an efficient matching of the decreased airport performance and the occurrence of local weather events. Thus, we provide an update of current weather classifications, which will be a basis for a better understanding of interdependencies between local and network-wide effects in the air transportation system.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1jripiJgRr6rjivY12zq2YBOPf_FLqjKT/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1hq_ajWh-1gHid0w_XROLxxjSHY4kuvVo/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Weather
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>37
+        
+    </td>
+    <td>
+    <strong>Quantification of Weather Impact on Arrival Management</strong><br />
+    Authors: <em>
+        Martin Steinheimer, Christian Kern &amp; Markus Kerschbaum (Austro Control) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Adverse weather has considerable impact on airport capacity and hence causes major delays for passengers, increased workload for air traffic controllers and cost for airlines. In Europe almost half of all regulated airport traffic delay is due to weather, in Austria even more than 95% of 2018 regulated airport traffic delays were caused by weather. As weather cannot be changed these massive delays cannot be avoided altogether, but early awareness due to accurate forecasts can help to mitigate its impact. In order to improve the decision making a quantification of the weather impact is a prerequisite as this allows to identify the relevant weather information needed and appropriate actions to mitigate the consequences. In this study weather impact was derived by evaluating traffic delays and related costs from fast time simulations. The simulations allow to study the sensitivity of the Air Traffic Management system to changes of traffic, weather and actions taken. In this way potential improvements were identified which will be addressed in future work. This paper gives an overview of the methodology used, conclusions from the evaluation and an outlook on further steps building on the achieved results.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1Fd2D1uFlgC5b46fUd0EeBZcATwRyKB7K/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/16vdFHcPSiajRefx2b_dgVj1nBqwMYOeS/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Weather
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>12
+        
+    </td>
+    <td>
+    <strong>Estimating Flow Rates in Convective Weather: A Simulation-Based Approach</strong><br />
+    Author: <em>
+        James C. Jones &amp; Yan Glina (MIT Lincoln Lab) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               A number of approaches have been proposed to estimate and manage airspace and airport capacity in the presence of weather. These tools have the potential to provide the user community with improved situational awareness. Yet, there are few tools that translate strategic level forecasts into airspace capacity and those that do have considerable uncertainty associated with their estimates. This modeling inaccuracy can compromise the effectiveness of prescriptive models in identifying solutions that perform well. In this paper, we assess the use of automated decision support in a fast-time Air Traffic Management simulation as a means of supplementing strategic weather translational models. The concept uses information from the weather translational models and compares the performance of flow rates produced through a stochastic integer programming model with random exploration against those generated by an epsilon greedy algorithm. The concept is validated against a historical case day in which the New York region was affected by convective weather. The results suggest that while both methods provide significant improvement over a set of randomly generated rates, the solutions identified with the epsilon greedy algorithm generally outperform those generated with a combination of integer programming and random exploration.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1DZcma0M_NOuDDiIhad7bGw94BB93ctnw/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/18ZGnpHhg2n9IAU49ssTh051q0ihXF2Tq/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Weather
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>4
+        
+    </td>
+    <td>
+    <strong>An Approach to En-Route Sector Demand Prediction subject to Thunderstorms</strong><br />
+    Authors: <em>
+        Alfonso Valenzuela, Antonio Franco, Damián Rivas (University of Seville), Daniel Sacher &amp; Jürgen Lang (MeteoSolutions) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this paper, a probabilistic approach to en-route sector demand prediction at tactical level subject to thunderstorm activity is presented. The source of uncertainty is the location of the convective cells affecting the sector. An ensemble-based stochastic methodology is developed that takes into account the stochastic evolution of the detected convective cells. The sector demand is predicted for short forecasting horizons (less than one hour); the analysis is based on the statistical characterization of the occupancy count. A realistic application is presented. The results show that the sector demand can be accurately predicted at tactical level when thunderstorm uncertainties are considered. The effects of the stochastic evolution of the convective cells on the demand prediction are quantified.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1VsR06Uu-5wnBhtEhavoiYTJUy9ArNsV9/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1GaHah1UKetJe19NvDm1zyOwTbRhogOo-/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Weather
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>39
+        
+    </td>
+    <td>
+    <strong>Time-Based Delivery Accuracy Requirements for Achieving Performance Based Navigation Objectives</strong><br />
+    Authors: <em>
+        Matthew R. Pollock, Lesley A. Weitz, Jared A. Hicks &amp; John M. Timberlake (MITRE) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Trajectory Based Operations relies on managing aircraft according to a schedule while keeping aircraft on defined and planned arrival paths to the runway. This work uses simulation data to investigate the delivery accuracy requirements needed in a metering operation to support target rates of aircraft remaining on their planned routes.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1MbSdwoh5SjUvLMjf6wUGGZSwVCSszq8S/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1-ZKNtxZ8aMf95sH2oPIRhBM1KfSvqzHT/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Performance Analysis and Metrics
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>102
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>A Spectral Approach towards Analyzing Air Traffic Network Disruptions</strong><br />
+    Authors: <em>
+        Max Z. Li, Karthik Gopalakrishnan, Hamsa Balakrishnan (MIT) &amp; Kristyn Pantoja (Texas A&amp;M University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The networked nature of the air transportation system leads to systemwide delays and cancellations as a result of disruptions at an airport. A comprehensive analysis of system performance requires understanding the inherent interdepen- dencies between various airports, in order to characterize off- nominal disruptions and to aid in recovery. In this work, we apply Graph Signal Processing (GSP) techniques to the analysis of flight delay networks, yielding two novel contributions: (1) We use the notion of the total variation (TV) of a graph signal in order to identify and quantify unexpected distributions of delays across airports; and (2) we present a spectral eigendecomposition analysis of airport disruption and delay networks. We investigate and characterize different patterns of delay distribution based on the relationship between TV and total delay, using 10 years worth of operational data from major US airports. We show that attributes of the resultant eigenvector modes and energy contributions are useful metrics to characterize specific disrup- tions caused by events such as nor’easters, Atlantic hurricanes, and equipment outages at airports.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1mB8ypiedeKXAO5KZLpWQPuaMuEo6B7m7/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1SXobIkw7jgNFNTBtRZgjet6_555AHvLw/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Performance Analysis and Metrics
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>88
+        
+    </td>
+    <td>
+    <strong>Identifying the Sources of Flight Inefficiency from Historical Aircraft Trajectories</strong><br />
+    Authors: <em>
+        Xavier Prats, Ramon Dalmau &amp; Cristina Barrado (UPC) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this paper a set of new performance indicators (PIs) aiming to capture the environmental impact of aircraft operations is proposed. Its contribution is threefold: optimal trajectories are computed to compare them with historical trajectories and derive several flight efficiency PIs; a family of fuel-based PIs is proposed, where fuel is estimated only from surveillance trajectory datasets not requiring confidential data; and different PIs and variants are proposed aiming to decouple and to identify different sources of environmental inefficiencies, distinguishing those that could be attributed to the different layers of air traffic management (ATM), and those attributable to the airspace users (AUs). A case study is presented for two different days, where flight inefficiency was assessed with the proposed PIs for all traffic crossing the FABEC airspace during a 24h period. Main results show that average fuel inefficiencies that could be attributable to ATM are around 250 kg (7.8%) when a full free route without en-route charges scenario at maximum range operations is considered as reference for the optimal trajectories. AUs induced fuel inefficiencies (due to flying faster than the maximum range speed) have a mean around 100 kg (3%). It is also concluded that fuel inefficiencies in the vertical and horizontal trajectory domains have a similar contribution to the overall flight inefficiency. Yet, horizontal inefficiencies are higher at strategic level, while are negative at tactical level for the great majority of flights.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1Ak9pBIj5ffLRFEDVT2uC4VIHVqF8o3cC/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1TqZ_O2vMFd9KLW1wQxxTFPcXOYM27Fo8/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Performance Analysis and Metrics
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>62
+        
+    </td>
+    <td>
+    <strong>Scheduling Improvements Following the Phase 1 Field Evaluation of the ATD-2 Integrated Arrival, Departure, and Surface Concept</strong><br />
+    Authors: <em>
+        William J. Coupe, Hanbong Lee, Yoon Jung (NASA), Liang Chen (Moffett Technologies) &amp; Isaac Robeson (Mosaic) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               NASA is conducting the Airspace Technology Demonstration-2 to evaluate an Integrated Arrival, Departure, and Surface (IADS) traffic management system that extends traffic sequencing for the entire life-cycle of a flight from departure gate to arrival gate within multi-airport, metroplex environments. After development and testing in human-in-the- loop simulations, the IADS system was deployed to Charlotte Douglas International Airport for a three-year field evaluation. From the initial IADS concept development through the end of the Phase 1 field evaluation many lessons were learned with regards to the IADS scheduler. In this paper we describe how data from the Phase 1 field evaluation helped identify scheduler improvements and guided the implementation of refinements. The improvements in the IADS scheduler described in this paper are incorporated into the IADS Phase 2 scheduler enabling strategic Surface Metering Programs and will be evaluated during the field evaluation.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/10Z-DhxB6IG2nIXmYspV-MTIwj9rmGbDL/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1f98_XkvlN9zekIznA1FvPfZbVwX8HT6l/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Systems and Tools to Improve ATM Performance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>70
+        
+    </td>
+    <td>
+    <strong>Stochastic Tail Assignment under Recovery</strong><br />
+    Authors: <em>
+        Yifan Xu, Sebastian Wandelt &amp; Xiaoqian Sun (Beihang University) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The tail assignment problem (TAP) is an pivotal part of the airline planning process with the goal of enabling efficient and safe operations. As the airline industry faces in increasing number of schedule disruptions, taking into account uncertainty during scheduling receives increasing interest by researchers. This paper presents a novel stochastic model for TAP in order to provide robust flight schedules despite opera- tional perturbations, as induced by, e.g., flight delay and airport closure. The model is formulated in a stochastic programming framework. We propose a solution algorithm based on im- proved column generation and Benders decomposition with the objective to minimize operational cost and expected recovery cost under a user-defined collection of disruption scenarios. The benefits of our stochastic TAP model are demonstrated with a computational study based on real airline data. Our experimental results highlight the efficiency and effectiveness of our new model.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1vDPCNSOjMiy9UEIosw_iOF6duS_MePzY/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/190QiX6nSE3zqvXqej9Y6O0K9203qtY6n/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Systems and Tools to Improve ATM Performance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>83
+        
+        <br/><img src="../../static/images/best_track.gif"/></td>
+        
+    </td>
+    <td>
+    <strong>Accrued Delay Application in Trajectory-Based Operations</strong><br />
+    Authors: <em>
+        Husni Idris (NASA), Christopher Chin (SGT) &amp; Antony Evans (Crown Consulting) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               The air traffic management system lacks integration among its elements often due to using inconsistent information, models, and metrics about the traffic. Transitioning to trajectory- based operations, whereby flights are managed by full trajectories in space and time, will enable more integration, with the help of increased automation. Building on trajectory-based operations, an “accrued delay” metric is proposed, which continuously measures the amount of delay that a flight has accumulated up to the current time, including delays incurred during the current flight and inherited from previous flights through the turnaround process. Through a time-based metering and scheduling example, we show how using accrued delay as a metric can help integrate the decision-making across multiple decision horizons, leading to more efficient and balanced access to airspace services. We show that when prioritizing flights that have already accrued high delay because of a constrained runway resource, significant gains are achieved in terms of reducing total delay and its variance. We studied the sensitivity of these gains to a number of factors such as time-based versus distance-based horizons, horizon size, and errors in conformance to scheduled times.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/14RlDMd9SmRWMfGq5ozRhW2ooKa9DtY7v/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1zCBwSRClDJOZNTKvnf3EAD0Tq3fiCa-f/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Systems and Tools to Improve ATM Performance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>93
+        
+    </td>
+    <td>
+    <strong>Alternative Resource Allocation Mechanisms for the Collaborative Trajectory Options Program (CTOP)</strong><br />
+    Author: <em>
+        Alexander Estes (University of Minnesota) &amp; Michael Ball (University of Maryland) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               In this paper, we identify two weaknesses in the design of the collaborative trajectory options program (CTOP) traffic management initiative. First, CTOP may issue excessive quantities of delay even when the parameters of the program are chosen correctly. Second, CTOP’s current design can discourage airlines from accurately disclosing trajectory options. We propose new mechanisms that address these design flaws. We also provide computational results that demonstrate that our proposed mechanisms would reduce delay costs and encourage greater participation in CTOP.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/14Uy7GD03ltdu6hFRhZKecihDmH9Gy3aO/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1Z6ZjWmUnyvL13PpO0H3k3U-3FN3tM1Ub/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Systems and Tools to Improve ATM Performance
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>59
+        
+    </td>
+    <td>
+    <strong>Predicting and Analyzing US Air Traffic Delays using Passenger-centric Data-sources</strong><br />
+    Authors: <em>
+        Philippe Monmousseau, Daniel Delahaye (ENAC), Aude Marzuoli &amp; Eric Feron (Georgia Institute of Technology) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               This paper aims at presenting a novel way of predicting and analyzing air traffic delays using publicly available data from social media with a focus on Twitter data. Three different machine learning regressors have been trained on this 2017 passenger-centric dataset and tested for the prediction up to five hours ahead of air traffic delays and cancellations for the first two months of 2018. Comparing and analyzing different accuracy measures of their prediction performances show that this dataset contains useful information about the current state and short-term future state of the air traffic system. The resulting methods yield higher prediction accuracy than traditional state-of-the-art and off-the-shelf time-series forecasting techniques performed on flight-centric data. More- over a post-training feature importance analysis conducted on the Random Forest regressor allowed a simplification and a refining of the model, leading to a faster training time and more accurate predictions. This paper is a first step in predicting and analyzing air traffic delays leveraging a real-time publicly available passenger-centered data source. The results of this study suggest a method to use passenger-centric data-sources both as an estimator of the current state of air traffic delays as well as an estimator of the short-term state of air traffic delays in the United States in real-time.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1QrnBlIZr9YYhr-bIkp5iTvCMMisGM_rA/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1fjNWldjfXg6u5K30Tspn32cZkvPAi8IZ/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  
+  <tr>
+    <td>97
+        
+    </td>
+    <td>
+    <strong>Causal Demand Modelling for Applications in En Route Air Traffic Management</strong><br />
+    Author: <em>
+        Ivan Tereshchenko &amp; Mark Hansen (UC Berkeley) &nbsp;
+         </em><br />
+    
+        <h2 class="trigger"><a href="#">abstract</a></h2>
+        <div class="toggle_container">
+            <div class="block">
+                <!--Content-->
+               Increasing air traffic volume makes en route Traffic Management Initiatives (TMIs) more important than ever before. The effective execution of en route TMIs depends on accurate predictions of airspace demand. Precise forecasts of airspace demand require causal models of route choice. Previous research shows that obtaining such models is extremely difficult, due to the complex nature of the airspace system. In this paper, we test three methods for making causal estimates of route utility in the context of two en route TMIs – the Airspace Flow Program (AFP) and Collaborative Trajectory Options Program (CTOP). The testing was done using simulated TMI data. We show that statistical models of the behavior of individual flights produce biased estimates of route utility. Models based on changes in aggregate delay produce better estimates; however, such models are harder to implement in practice. Finally, CTOP offers data structures that allow us to achieve higher quality airspace demand predictions.
+            </div>
+        </div>
+    
+    </td>
+    
+    
+    
+    <td align="center">
+        
+        
+        <a href="https://drive.google.com/file/d/1ua9j7cnZ6X6qpLa6yc__rJNAnMfc9Vok/view?usp=sharing" target="_blank"><img alt="pdf logo image" src="/static/images/large_pdf.gif" /></a>
+        
+        
+    </td>
+    
+
+    
+
+    
+    <td align="center">
+            
+            <a href="https://drive.google.com/file/d/1XY94W9dpwXifF6mj9UidBy6qwSLRiF3N/view?usp=sharing"><img src="/static/images/large_pdf.gif" /></a>
+                
+    </td>
+    
+
+    <td>
+     Complexity
+    </td>
+
+  </tr>
+  
+  </tbody>
+</table>
+
+
+<div align="right">
+<h3><img src="../../static/images/best_conference_6.gif"/> Best in Conference
+<img src="../../static/images/best_track.gif"/> Best in Track</h3>
+</div>
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="container">
+                    <p>Copyright &copy; ATM Seminar 2020</p>
+                        </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
+        
+
+</body>
+    
+
+    
+</html>
